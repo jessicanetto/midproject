@@ -3,15 +3,17 @@
 
 module.exports = [
   {
-    Date: "4/17/2021",
-    Name: "Jessica",
-    Amount: "$3",
-    From: "Pumpkin",
+    name: "Jessica",
+    date: "2021-06-11",
+    type: "debit",
+    amount: 2,
+    from: "Mickey",
   },
   {
-    Date: "10/31/2020",
-    Name: "Jack",
-    Amount: "$1",
-    From: "Santa",
+    name: "Pumpkin",
+    date: "2021-08-11",
+    type: "debit",
+    amount: 17,
+    from: "Dolly",
   },
 ];
